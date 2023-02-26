@@ -99,4 +99,9 @@
     .portf__about-container_skills-display{
         margin-top: 2rem;
     }
+
+    .portf__about-container_persona img{
+        width: 100%;
+        height: auto;
+    }
 }
