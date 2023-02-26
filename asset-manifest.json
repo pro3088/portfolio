@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.942b607f.css",
+    "main.css": "./static/css/main.447b61c2.css",
     "main.js": "./static/js/main.c6964475.js",
     "static/media/Smart-glasses.jpg": "./static/media/Smart-glasses.ba067cabb2732aa9e30d.jpg",
     "static/media/Football-manager.jpg": "./static/media/Football-manager.7b34b8cd1fc0da869b69.jpg",
@@ -20,11 +20,11 @@
     "static/media/javaScript.svg": "./static/media/javaScript.fceae215b1cb3277edd1bb376c9170e0.svg",
     "index.html": "./index.html",
     "static/media/html5.svg": "./static/media/html5.ccadad626a594c367c0206d1e8f0a759.svg",
-    "main.942b607f.css.map": "./static/css/main.942b607f.css.map",
+    "main.447b61c2.css.map": "./static/css/main.447b61c2.css.map",
     "main.c6964475.js.map": "./static/js/main.c6964475.js.map"
   },
   "entrypoints": [
-    "static/css/main.942b607f.css",
+    "static/css/main.447b61c2.css",
     "static/js/main.c6964475.js"
   ]
 }
