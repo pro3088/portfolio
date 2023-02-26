@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='portf__footer'>
       <div className='portf__footer-info'>
-        <h2>Let's <span>talk</span> for something special</h2>
+        <h2>Let's <span>talk</span> something special</h2>
         <div className='portf__footer-info_promotion'>
           <p>Through each phase of engagement, I utilize   focused teams that combine experience, design and modern engineering to yield results.</p>
           <button type='button'> <a href="http://www.linkedin.com/in/rotimi-abayomi/">Let's Talk</a> </button>
