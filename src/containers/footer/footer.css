@@ -31,7 +31,7 @@
 }
 
 .portf__footer-info h2 span{
-    font-family: 'Script MT Bold';
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-style: italic;
     color: #FFFFFF;
 }
@@ -52,7 +52,7 @@
     line-height: 26px;
     max-width: 500px;
     letter-spacing: 0.01em;
-    text-align: justify;
+    text-align: center;
 }
 
 .portf__footer-info_promotion button{

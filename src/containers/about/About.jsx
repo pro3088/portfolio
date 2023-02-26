@@ -30,7 +30,7 @@ const About = () => {
             <br />
             <p>Focused on supporting team efforts and maximizing quality for end users.</p>
             <br />
-            <p>I am a Java Engineer by nature but have ventured into different technologies like AI, Embedded systems and machine learning.</p>
+            <p>A Java Engineer by nature but have ventured into different technologies like AI, Embedded systems and machine learning.</p>
           </div>
           <div className='portf__about-container_skills-display'>
             <Skill img ={css} description = "CSS" />
