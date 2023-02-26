@@ -88,6 +88,12 @@ p{
     .portf__navbar{    
         padding: 1rem 2rem;
     }
+
+    .portf__navbar-contact button{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0.7rem 0.7rem;
+    }
 }
 
 @media screen and (max-width: 600px){
