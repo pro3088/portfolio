@@ -105,7 +105,14 @@
     }
 }
 
-
+@media screen and (max-width: 500px) {
+    .portf__project-container_others-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem 0rem;
+    }
+}
 
 
 
