@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f48139c.css",
+    "main.js": "/static/js/main.f37fcff7.js",
+    "static/media/Smart-glasses.jpg": "/static/media/Smart-glasses.ba067cabb2732aa9e30d.jpg",
+    "static/media/Football-manager.jpg": "/static/media/Football-manager.7b34b8cd1fc0da869b69.jpg",
+    "static/media/persona.svg": "/static/media/persona.3a5ae24022f679efd896d01e3c4f7932.svg",
+    "static/media/Boy_with_laptop.svg": "/static/media/Boy_with_laptop.9770394002fbcaa721f31f4ab04814d7.svg",
+    "static/media/Car-park-app.jpg": "/static/media/Car-park-app.f20f54cf444551c25c1a.jpg",
+    "static/media/postgresql.svg": "/static/media/postgresql.c76eae84cdba30aa38891c67fda8f3d7.svg",
+    "static/media/Rotex_Logo.svg": "/static/media/Rotex_Logo.2c685533baa468d1d60664a639be21b2.svg",
+    "static/media/postman.svg": "/static/media/postman.13c790a30a06dc228c29ba30491c6e68.svg",
+    "static/media/github.svg": "/static/media/github.bcc63d46c849ee1b7d079bda91913808.svg",
+    "static/media/java.svg": "/static/media/java.d2d4163af83b41e81fa8ab3ce8960020.svg",
+    "static/media/instagram.svg": "/static/media/instagram.efa266d49c9efe2136672374b7992643.svg",
+    "static/media/Css3.svg": "/static/media/Css3.1fd9618744436a7e65432530222aac06.svg",
+    "static/media/python.svg": "/static/media/python.549c89829c7dc5938d42e1102b82da58.svg",
+    "static/media/linkedln.svg": "/static/media/linkedln.17f397768f57a0d76214326318c3abf4.svg",
+    "static/media/git.svg": "/static/media/git.b56eacc04499ff0aa7491ff86f8e7a85.svg",
+    "static/media/javaScript.svg": "/static/media/javaScript.fceae215b1cb3277edd1bb376c9170e0.svg",
+    "index.html": "/index.html",
+    "static/media/html5.svg": "/static/media/html5.ccadad626a594c367c0206d1e8f0a759.svg",
+    "main.5f48139c.css.map": "/static/css/main.5f48139c.css.map",
+    "main.f37fcff7.js.map": "/static/js/main.f37fcff7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f48139c.css",
+    "static/js/main.f37fcff7.js"
+  ]
+}
