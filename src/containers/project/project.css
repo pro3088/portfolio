@@ -1,0 +1,118 @@
+.portf__project{
+    width: 100%;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portf__project-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.portf__project-container_lastest{
+    margin-right: 2rem;
+    max-width: 500px;
+}
+
+.portf__project-container_others,
+.portf__project-container_others-cards{
+    gap: 1rem 0rem;
+}
+
+.portf__project-container_lastest,
+.portf__project-container_others,
+.portf__project-container_others-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portf__project-container_lastest h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+.portf__project-container_others button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 150px;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: #1E1E1E;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 900px) {
+    .portf__project-container_lastest h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .portf__project{
+        padding: 1rem 2rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .portf__project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 0%;
+    }
+
+    .portf__project-container_lastest{
+        flex-direction: row;
+        margin-right: 0rem;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 100%;
+        gap: 0rem 1rem;
+    }
+
+    .portf__project-container_lastest h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .portf__project-container_others-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0rem 1rem;
+        margin-top: 2rem;
+    }
+
+    .portf__project-container_others{
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

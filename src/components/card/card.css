@@ -1,0 +1,91 @@
+.portf__card{
+    height: 100%;
+    max-width: 400px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.portf__card-progress{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portf__card h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.portf__card-progress p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.portf__card img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .portf__card h5{
+        font-size: 18px;
+    }
+
+    .portf__card-progress p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portf__card h5{
+        font-size: 14px;
+    }
+
+    .portf__card-progress p{
+        font-size: 10px;
+    }
+
+    .portf__card{
+        height: 100%;
+        max-width: 300px;
+        max-height: 400px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portf__card h5{
+        font-size: 8px;
+    }
+
+    .portf__card-progress p{
+        font-size: 7px;
+    }
+
+    .portf__card{
+        height: 100%;
+        max-width: 200px;
+        max-height: 300px;
+    }
+}
+
+
+
+
+
+
+
+

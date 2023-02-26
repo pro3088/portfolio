@@ -1,0 +1,15 @@
+.portf__title{
+    border-style: solid;
+    margin: 2rem;
+}
+
+.portf__title h3{
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}

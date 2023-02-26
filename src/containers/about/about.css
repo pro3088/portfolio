@@ -1,0 +1,102 @@
+.portf__about{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding: 1rem 4rem;
+    align-items: center;
+}
+
+.portf__about-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.portf__about-container_persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.portf__about-container_persona-figures{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.portf__about-container_persona-figures h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+}
+
+.portf__about-container_persona-figures p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+
+    letter-spacing: 0.01em;
+}
+
+.portf__about-container_persona-figures_experience,
+.portf__about-container_persona-figures_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.portf__about-container_skills{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.portf__about-container_skills-text{
+    margin-bottom: 2rem;
+}
+
+.portf__about-container_skills-text p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: justify;
+}
+
+.portf__about-container_skills-display{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .portf__about-container_persona{
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portf__about{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .portf__about-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .portf__about-container_skills{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    .portf__about-container_skills-display{
+        margin-top: 2rem;
+    }
+}

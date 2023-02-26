@@ -1,0 +1,28 @@
+.portf__experience{
+    width: 100%;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portf__experience-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .portf__experience{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portf__experience-container{
+        display: flex;
+        gap: 1rem 0rem;
+        flex-direction: column;
+    }
+}

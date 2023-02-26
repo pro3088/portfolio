@@ -1,0 +1,29 @@
+.portf__skills{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.portf__skills img{
+    width: 50px;
+    height: 56px;
+    padding: .3rem;
+}
+
+.portf__skills-text{
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    width: 100%;
+}
+
+.portf__skills-text p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+
+    letter-spacing: 0.01em;
+}

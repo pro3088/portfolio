@@ -1,0 +1,149 @@
+.portf__header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.portf__header-intro{
+    max-width: 600px;
+}
+
+.portf__header-intro h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+}
+
+.portf__header-intro p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.portf__header-intro p span{
+    color: var(--primary-color);
+}
+
+.portf__header-intro_title{
+    display: flex;
+    align-items: center;
+}
+
+.portf__header-intro_title-line{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    margin-right: 0.5rem;
+}
+
+.portf__header-intro_title-line p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.portf__header-intro_socials{
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.portf__header-intro_socials p{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+.portf__header-intro_socials img{
+    width: 17px;
+    height: 17px;
+}
+
+.portf__header-intro_socials-linkedln{
+    background-color: #D9D9D9;
+    padding: 1rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.portf__header-intro_socials-instagram{
+    background-color: #D9D9D9;
+    padding: 1rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.portf__header-intro_socials-github{
+    background-color: #D9D9D9;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width: 1050px){
+    .portf__header-intro{
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .portf__header{
+        padding: 1rem 2rem;
+    }
+
+    .portf__header-intro{
+        max-width: 400px;
+    }
+
+    .portf__header-intro h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .portf__header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .portf__header-intro{
+        margin: 0rem;
+        margin-top: 1rem;
+    }
+
+    .portf__header-intro h1{
+        font-size: 25px;
+        line-height: 55px;
+    }
+
+    .portf__header-intro_socials-linkedln{
+        padding: .5rem;
+    }
+    
+    .portf__header-intro_socials-instagram{
+        padding: .5rem;
+    }
+    
+    .portf__header-intro_socials-github{
+        padding: .5rem;
+    }
+}
+
+
+
+
+
+

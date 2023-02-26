@@ -1,0 +1,61 @@
+.portf__exp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    border-style: solid;
+    max-width: 450px;
+    min-width: 300px;
+    background-color: var(--primary-color);
+}
+
+.portf__exp p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: justify;
+}
+
+.portf__exp-header{
+    margin-bottom: 1rem;
+}
+
+.portf__exp-header h6{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+}
+
+.portf__exp-header h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1000px) {
+    .portf__exp{
+        max-width: 400px;
+        min-width: 200px;
+    }
+
+    .portf__exp p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .portf__exp-header h6{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .portf__exp-header h4{
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
