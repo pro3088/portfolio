@@ -4,6 +4,9 @@
 :root{
     --font-family: 'Poppins', sans-serif;
 
+    --h1-size-small:25px;
+
+
     --color-bg:#F9F7F7;
     --primary-color: #F08142;
 }

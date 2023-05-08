@@ -6,6 +6,7 @@ import python from '../../assets/Icons/python.svg'
 import git from '../../assets/Icons/git.svg'
 import postman from '../../assets/Icons/postman.svg'
 import postgresql from '../../assets/Icons/postgresql.svg'
+import adobexd from '../../assets/Icons/adobexd.svg'
 
 export{
     css,
@@ -15,5 +16,6 @@ export{
     python,
     git,
     postman,
-    postgresql
+    postgresql,
+    adobexd
 }

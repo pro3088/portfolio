@@ -3,7 +3,7 @@
     width: 100%;
     flex-direction: column;
     background-color: var(--primary-color);
-    padding: 1rem 4rem;
+    padding: 1.5rem 4rem 4rem 4rem;
     align-items: center;
 }
 
@@ -11,6 +11,8 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .portf__about-container_persona{
@@ -27,25 +29,21 @@
 .portf__about-container_persona-figures h4{
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 54px;
     letter-spacing: 0.01em;
 }
 
-.portf__about-container_persona-figures p{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 20px;
-
-    letter-spacing: 0.01em;
-}
-
-.portf__about-container_persona-figures_experience,
-.portf__about-container_persona-figures_project{
+.portf__about-container_persona-figures_stats{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.portf__about-container_persona-figures_stats p{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 550;
 }
 
 
@@ -61,9 +59,9 @@
 
 .portf__about-container_skills-text p{
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
     letter-spacing: 0.01em;
     text-align: justify;
 }
@@ -75,6 +73,10 @@
     gap: 1rem;
 }
 
+.portf__about-container_skills-display img{
+    height: 60px;
+}
+
 @media screen and (max-width: 1050px) {
     .portf__about-container_persona{
         margin-right: 1rem;
@@ -82,12 +84,24 @@
 }
 
 @media screen and (max-width: 900px) {
-    .portf__about{
-        padding: 1rem 2rem;
+    .portf__about-container_skills-text p{
+        font-size: 12px;
+    }
+    .portf__about-container_persona-figures_stats p{
+        font-size: 12px;
+    }
+    .portf__about-container_skills-display img{
+        height: 40px;
+    }
+    .portf__about-container_persona img{
+        width: 40vw
+    }
+    .portf__about-container_skills{
+        max-width: 200px;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
     .portf__about-container{
         flex-direction: column-reverse;
         align-items: center;
@@ -99,7 +113,9 @@
     .portf__about-container_skills-display{
         margin-top: 2rem;
     }
-
+    .portf__about-container_skills{
+        max-width: 300px;
+    }
     .portf__about-container_persona img{
         width: 100%;
         height: auto;

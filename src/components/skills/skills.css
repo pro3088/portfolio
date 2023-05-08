@@ -1,10 +1,19 @@
 .portf__skills{
     display: flex;
-    width: 100px;
+    width: 110px;
     flex-direction: column;
     align-items: center;
     border-style: solid;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+}
+
+.portf__skills p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: .1rem;
+    letter-spacing: 0.01em;
 }
 
 .portf__skills img{
@@ -19,11 +28,12 @@
     width: 100%;
 }
 
-.portf__skills-text p{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 20px;
 
-    letter-spacing: 0.01em;
+@media screen and (max-width: 900px) {
+    .portf__skills{
+        width: 90px;
+    }
+    .portf__skills p{
+        font-size: 12px;
+    }
 }

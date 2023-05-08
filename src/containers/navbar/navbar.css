@@ -39,17 +39,17 @@ p{
 
 .portf__navbar-contact button,
 .portf__navbar-menu_contact button{
-    background: #1E1E1E;
+    /* background: #1E1E1E; */
     color: var(--primary-color);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 0.5rem 1rem;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 15px;
     line-height: 26px;
     text-align: center;
-    outline: none;
-    border: 0;
+    border-style: solid;
+    border-width: 3px;
     cursor: pointer;
 }
 

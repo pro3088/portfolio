@@ -1,7 +1,7 @@
 .portf__project{
     width: 100%;
-    height: 100%;
-    padding: 1rem 4rem;
+    /* height: 100%; */
+    padding: 1.5rem 4rem 4rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,40 +11,22 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    gap: 1rem 0rem;
+    margin-top: 1rem;
+    align-items: center;
 }
 
-.portf__project-container_others,
-.portf__project-container_others-cards{
+.portf__project-container_projects{
     gap: 1rem 0rem;
 }
 
-.portf__project-container_lastest,
-.portf__project-container_others,
-.portf__project-container_others-cards{
+.portf__project-container_projects{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.portf__project-container_lastest{
-    margin-right: 2rem;
-    max-width: 550px;
-    max-height: 600px;
-    justify-content: space-around;  
-    align-items: center;  
-}
-
-.portf__project-container_lastest h2{
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 0.01em;
-    text-transform: capitalize;
-    margin-bottom: 4rem;
-}
-
-.portf__project-container_others button{
+.portf__project-container_projects button{
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 17px;
@@ -64,7 +46,7 @@
 
 @media screen and (max-width: 900px) {
     .portf__project{
-        padding: 1rem 2rem;
+        padding: 1rem 4rem 4rem 4rem;
     }
 }
 
@@ -72,11 +54,9 @@
 @media screen and (max-width: 800px) {
     .portf__project-container{
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         max-height: 100%;
     }
-
     .portf__project-container_lastest{
         flex-direction: row;
         margin-right: 0rem;
@@ -85,35 +65,22 @@
         width: 100%;
         gap: 0rem 1rem;
     }
-
     .portf__project-container_lastest h2{
         font-size: 30px;
     }
-
-    .portf__project-container_others-cards{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 0rem 1rem;
-        margin-top: 2rem;
-    }
-
-    .portf__project-container_others{
+    .portf__project-container_projects{
         align-items: center;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .portf__project-container_others-cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 1rem 0rem;
-    }
-
     .portf__project-container_lastest h2{
         font-size: 20px;
         line-height: 30px;
+    }
+    .portf__project-container{
+        display: flex;
+        flex-direction: column;
     }
 }
 
