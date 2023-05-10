@@ -84,9 +84,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    .portf__about-container_skills-text p{
-        font-size: 12px;
-    }
     .portf__about-container_persona-figures_stats p{
         font-size: 12px;
     }
@@ -97,7 +94,7 @@
         width: 40vw
     }
     .portf__about-container_skills{
-        max-width: 200px;
+        max-width: 300px;
     }
 }
 
@@ -113,11 +110,11 @@
     .portf__about-container_skills-display{
         margin-top: 2rem;
     }
-    .portf__about-container_skills{
-        max-width: 300px;
-    }
     .portf__about-container_persona img{
         width: 100%;
         height: auto;
+    }
+    .portf__about-container_skills-text p{
+        font-size: 12px;
     }
 }

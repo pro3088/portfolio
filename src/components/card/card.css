@@ -1,23 +1,36 @@
 .portf__card{
-    width: 500px;
-    height: 400px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: .5rem 1rem;
-    border-style: solid;
-    border-width: 3px;
-    background-color: var(--primary-color);
+    justify-content: space-between;
 }
 
 .portf__card p{
     text-align: left;
+    font-size: 15px;
+    font-family: var(--font-family);
     margin: 0px
 }
 
-.portf__card-links{
+.portf__card-description{
+    width: 500px
+}
+
+.portf__card-title h5{
     margin-top: .5rem;
-    display: flex;
-    justify-content: space-between;
+}
+
+.portf__card-title{
+    max-width: 350px;
+}
+
+.portf__card-title p{
+    border-style: solid;
+    border-width: 3px;
+    padding: .1rem .5rem;
+    width: fit-content;
+    margin-top: 1rem;
 }
 
 .portf__card h3{
@@ -29,65 +42,53 @@
     text-transform: capitalize;
 }
 
-.portf__card-links p{
+.portf__card h5{
     font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 22px;
-    padding: .3px;
-    border-style: solid;
-    border-width: 2px;
-    background-color:blanchedalmond;
-    letter-spacing: 0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
     text-transform: capitalize;
 }
 
-.portf__card img{
-    width: 100%;
-    height: 75%;
-    max-height: 280px;
-    margin-top: .5rem;
-}
-
-
 @media screen and (max-width: 1050px) {
+    .portf__card-description{
+        width: 400px
+    }
     .portf__card h3{
-        font-size: 15px;
+        font-weight: 600;
+        font-size: 22px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .portf__card{
-        width: 300px;
-        height: 250px;
+    .portf__card h5{
+        font-size: 15px;
     }
-    .portf__card img{
-        width: 100%;
-        height: 60%;
-        max-height: 150px;
-        margin-top: .5rem;
+    .portf__card h3{
+        font-weight: 600;
+        font-size: 20px;
     }
-    .portf__card p{
-        font-size: 12px;
-    }
-    .portf__card-links p{
-        font-size: 12px;
+    .portf__card-title{
+        max-width: 200px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .portf__card h5{
-        font-size: 8px;
-    }
-
-    .portf__card-progress p{
-        font-size: 7px;
-    }
-
+@media screen and (max-width: 650px) {
     .portf__card{
-        height: 100%;
-        max-width: 200px;
-        max-height: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portf__card-description{
+        margin-top: 1rem;
+    }
+    .portf__card-description p{
+        font-size: 12px;
+    }
+    .portf__card-title{
+        max-width: 270px;
+    }
+    .portf__card-description{
+        width: 270px
     }
 }
 

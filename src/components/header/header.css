@@ -105,14 +105,6 @@
     .portf__header-intro{
         max-width: 300px;
     }
-    .portf__header-intro p{
-        font-family: var(--font-family);
-        /* font-weight: 400; */
-        font-size: 12px;
-        line-height: 22px;
-        text-align: justify;
-    }
-
     .portf__header-intro h1{
         font-size: 40px;
         line-height: 55px;
@@ -124,6 +116,14 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+    }
+    
+    .portf__header-intro p{
+        font-family: var(--font-family);
+        /* font-weight: 400; */
+        font-size: 12px;
+        line-height: 22px;
+        text-align: justify;
     }
 
     .portf__header-intro{

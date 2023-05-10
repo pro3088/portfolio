@@ -5,10 +5,8 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='portf__footer'>
-      <div className='portf__footer-info'>
-        <h2>Let's <span>talk</span> something special</h2>
-        <button type='button'> <a href="http://www.linkedin.com/in/rotimi-abayomi/">Let's Talk</a> </button>
-      </div>
+      <div className='port__footer-container'>
+      <h2>Let's <span>talk</span> something special</h2>
       <div className='portf__footer-message'>
         <h4>Say Hi!</h4>
         <div className='portf__footer-message_links'>
@@ -22,6 +20,7 @@ const Footer = () => {
             <p><a href="https://twitter.com/matrix_coding">Twitter</a></p>
           </div>
         </div>
+      </div>
       </div>
       <div className='portf__footer-line'></div>
       <p>Copyright 2022</p>
