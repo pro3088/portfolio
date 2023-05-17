@@ -10,7 +10,7 @@
 .portf__about-container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
 }

@@ -16,7 +16,7 @@ const Header = () => {
         </div>
         <h1>Hello! I am Rotimi Abayomi</h1>
         <div className='portf__header-intro_title-paragraph'>
-          <p>Welcome to my portfolio site, where the art of code takes center stage! Here, I invite you to delve into my world of Java development and explore the wonders of artificial intelligence.</p><br />
+          <p>Welcome to my portfolio site, where the art of code takes center stage! Here, I invite you to delve into my world of Java development.</p><br />
           <p>With a passion for technology and an eye for design, I blend functionality and aesthetics to create captivating experiences. Through lines of code, I bring ideas to life, crafting innovative solutions that leave a lasting impact.</p><br />
           <p>Join me on this exhilarating journey into the realm of code.</p>
         </div>
