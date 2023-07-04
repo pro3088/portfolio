@@ -15,7 +15,7 @@ const About = () => {
           <img src={persona} alt="persona" />
           <div className='portf__about-container_persona-figures'>
             <div className='portf__about-container_persona-figures_stats'>
-              <h4>1+</h4>
+              <h4>2+</h4>
               <p>Years of Experience</p>
             </div>
             <div className='portf__about-container_persona-figures_stats'>

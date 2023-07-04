@@ -17,7 +17,7 @@ const Header = () => {
         <h1>Hello! I am Rotimi Abayomi</h1>
         <div className='portf__header-intro_title-paragraph'>
           <p>Welcome to my portfolio site, where the art of code takes center stage! Here, I invite you to delve into my world of Java development.</p><br />
-          <p>With a passion for technology and an eye for design, I blend functionality and aesthetics to create captivating experiences. Through lines of code, I bring ideas to life, crafting innovative solutions that leave a lasting impact.</p><br />
+          <p>I welcome you to my two years of Java development experience. Here you will find a number of projects that demonstrate my skills and dedication to such powerful technologies as Java and React. Over the years, my faithful mate java and I have faced difficult problems. React is rapidly embracing the click, so we welcome that challenge as well.</p><br />
           <p>Join me on this exhilarating journey into the realm of code.</p>
         </div>
         
